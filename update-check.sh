@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
-[ ! -f /mnt/p1/boot/grub/grub.cfg ] && exit 1
+# rr
+[ ! "rr" = "$(hostname)" ] && exit 1
 
 exit 0
